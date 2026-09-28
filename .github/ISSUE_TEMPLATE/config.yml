@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Documentation and guides (Wiki)
+    url: https://github.com/stevehsudrawing/etf-skin-decoder/wiki
+    about: The format reference and the guides live in the Wiki.

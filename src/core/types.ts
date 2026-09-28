@@ -3,7 +3,7 @@
  *
  * The decoder is a pure, three-free layer: it operates on
  * `ImageData`-compatible pixel buffers and returns plain data plus
- * prepared overlay images. Nothing in `src/decode/` imports `three`
+ * prepared overlay images. Nothing in this package imports `three`
  * or `skinview3d`.
  */
 

@@ -60,7 +60,9 @@ complete format API tables.
 
 - [npm package](https://www.npmjs.com/package/etf-skin-decoder);
 - [Repository](https://github.com/stevehsudrawing/etf-skin-decoder);
-- [Issues](https://github.com/stevehsudrawing/etf-skin-decoder/issues).
+- [Issues](https://github.com/stevehsudrawing/etf-skin-decoder/issues);
+- [Wiki](https://github.com/stevehsudrawing/etf-skin-decoder/wiki) -
+  the latest-state mirror of this documentation.
 
 ## 5. License
 
