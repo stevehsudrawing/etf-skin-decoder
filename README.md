@@ -21,14 +21,13 @@ table and the beta notice - arrives with the v0.1.0 release.
 
 ## 1. Status
 
-Early development. The package currently contains scaffolding only:
-the decode API (`decodeSkin()`) is migrated in during the v0.1.0
-line, which is beta.
+Early development. The decode layer and its test suite have landed;
+the package is not published yet, and the v0.1.0 line is beta.
 
 ## 2. Roadmap
 
 - [x] package scaffold and tooling (build, test, lint, git hooks);
-- [ ] decode-layer migration from `skinview3d-etf` (source, specs,
+- [x] decode-layer migration from `skinview3d-etf` (source, specs,
       fixtures);
 - [ ] the format API tier frozen and documented;
 - [ ] v0.1.0 release on npm.
