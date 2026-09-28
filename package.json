@@ -1,0 +1,76 @@
+{
+  "name": "etf-skin-decoder",
+  "version": "0.1.0",
+  "description": "Unofficial decoder for ETF (Entity Texture Features) Minecraft player-skin features.",
+  "keywords": [
+    "minecraft",
+    "minecraft-skin",
+    "player-skin",
+    "entity-texture-features",
+    "etf",
+    "decoder",
+    "skinview3d",
+    "emissive",
+    "transparency"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevehsudrawing/etf-skin-decoder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stevehsudrawing/etf-skin-decoder/issues"
+  },
+  "homepage": "https://github.com/stevehsudrawing/etf-skin-decoder#readme",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsup",
+    "prepublishOnly": "pnpm run build",
+    "test": "vitest run",
+    "lint": "eslint .",
+    "format": "prettier --write . --ignore-path .prettierignore",
+    "format:check": "prettier --check . --ignore-path .prettierignore",
+    "prepare": "husky"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.5.1",
+      "onFail": "warn"
+    }
+  },
+  "packageManager": "pnpm@12.5.1",
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.3",
+    "@commitlint/config-conventional": "^21.2.3",
+    "@commitlint/types": "^21.2.3",
+    "@eslint/js": "^10.0.1",
+    "@types/pngjs": "^6.0.5",
+    "eslint": "^10.11.0",
+    "eslint-config-prettier": "^10.1.8",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.5.1",
+    "pngjs": "^7.0.0",
+    "prettier": "^3.9.8",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.70.0",
+    "vitest": "^5.0.1"
+  }
+}

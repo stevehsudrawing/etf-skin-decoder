@@ -1,0 +1,18 @@
+# IDE / Text Editors: Settings (only shared .vscode settings are tracked)
+.idea/
+.vscode/*
+!.vscode/settings.json
+
+# Python: Environments
+.venv**
+
+# Node.js Dependencies
+node_modules/
+dist/
+
+# Local-only project files
+**/*.psd
+
+# Fixture skins: only the self-drawn example.png is committed
+fixtures/*
+!fixtures/example.png
