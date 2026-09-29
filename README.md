@@ -1,5 +1,9 @@
 # etf-skin-decoder
 
+[![npm version](https://img.shields.io/npm/v/etf-skin-decoder?style=flat-square)](https://www.npmjs.com/package/etf-skin-decoder)
+[![license: MIT](https://img.shields.io/npm/l/etf-skin-decoder?style=flat-square)](https://github.com/stevehsudrawing/etf-skin-decoder/blob/main/LICENSE)
+[![docs](https://img.shields.io/badge/docs-wiki-blue?style=flat-square)](https://github.com/stevehsudrawing/etf-skin-decoder/wiki)
+
 Unofficial, community-built decoder for
 [ETF (Entity Texture Features)](https://github.com/Traben-0/Entity_Texture_Features)
 player-skin features. It reads a Minecraft player-skin image (an
@@ -7,8 +11,8 @@ player-skin features. It reads a Minecraft player-skin image (an
 the renderer-ready feature data: transparency, emissive (glowing)
 pixels, blinking eyes, the villager and textured noses, the enchanted
 pixel pattern and the jacket/dress extension. The package is the
-standalone extraction of the decoder built into
-[`skinview3d-etf`](https://github.com/stevehsudrawing/skinview3d-etf).
+standalone extraction of the decoder built into `skinview3d-etf`
+([GitHub](https://github.com/stevehsudrawing/skinview3d-etf) | [npm](https://www.npmjs.com/package/skinview3d-etf)).
 
 > [!WARNING]
 > This package is in **beta**. The public API, decoding behavior,
